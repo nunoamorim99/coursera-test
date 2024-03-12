@@ -29,6 +29,7 @@
 #nav-list a {
   color: black;
   text-align: center;
+  font-weight: bold;
 }
 #nav-list a:hover {
   background: grey;
@@ -45,23 +46,45 @@
 }
 
 #chicken-div {
-  background-color: grey;
-  color: black;
-  text-align: center;
-}
-#beef-div {
-  background-color: grey;
-  color: black;
-  text-align: center;
   margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-#sushi-div {
   background-color: grey;
   color: black;
-  text-align: center;
-  margin-top: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
+}
+#chicken-div h2 {
+text-align: center;
+}
+#chicken-div p {
+  text-align: justify;
+}
+
+@media (max-width: 767px) {
+  .col-xs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 90%;
+    margin-left: 40px;
+  }
+}
+
+
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 90%;
+    margin-left: 20px;
+  }
 }
