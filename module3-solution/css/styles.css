@@ -70,7 +70,6 @@ text-align: center;
   }
 }
 
-
 @media (max-width: 479px) {
   /* Header */
   .navbar-brand h1 { /* Restaurant name */
